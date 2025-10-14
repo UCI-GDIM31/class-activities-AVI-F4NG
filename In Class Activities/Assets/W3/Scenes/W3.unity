@@ -555,7 +555,7 @@ MonoBehaviour:
   ballRenderer: {fileID: 522894067}
   _rigidbody: {fileID: 522894066}
   _speedMultiplier: 1
-  _speedThreshold: 5
+  _speedThreshold: 3
 --- !u!58 &522894065
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -2189,7 +2189,7 @@ MonoBehaviour:
   _pointsText: {fileID: 980115520}
   _speechText: {fileID: 1520169577}
   _maxHealth: 5
-  _destroyCatWhenDead: 0
+  _destroyCatWhenDead: 1
 --- !u!1 &1756818710
 GameObject:
   m_ObjectHideFlags: 0
