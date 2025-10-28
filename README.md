@@ -23,6 +23,10 @@ Table 7
 Typically, only the key input part changes due to the player's input changes, it is used to keep track of whether the player pressed the key or not. If not, it is set to 0 and the object won't move.
 3. line 25: calls transform.Translate() and actually translates the object's position. transform.Translate() is used to move objects' positions. The (0, 0, translation) values mean that we are only changing the Z axis position of the object according to the value of the float variable translation.
 
+### W5
+Q: What is the GetComponent function? What does it do?
+A: The simplest case is where a script on a GameObject needs to access another Component attached to the same GameObject (other scripts attached to a GameObject are also Components themselves). To do this, the first step is to get a reference to the Component instance you want to work with. This is done with the GetComponent method.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 

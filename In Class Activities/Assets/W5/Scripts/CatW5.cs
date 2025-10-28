@@ -9,6 +9,8 @@ public class CatW5 : MonoBehaviour
 
     private string _isWalkingName = "IsWalking";
 
+    private float mult;
+
     private void Update()
     {
         // STEP 1 & 2 ---------------------------------------------------------
@@ -31,7 +33,28 @@ public class CatW5 : MonoBehaviour
         //          changing that axis?
         //      Should I modify translation with Vector addition, or multiplication,
         //          or both?
-        //
+
+        if (_flipWSControls == true)
+        {
+            mult = -1.0f;
+        }
+        else
+        {
+            mult = 1.0f;
+        }
+
+        Vector3 movement = Vector3.zero;
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            movement.z = 1.0f * mult;
+        }
+        else if (Input.GetKey(KeyCode.S))
+        {
+            movement.z = -1.0f * mult;
+        }
+        transform.Translate(movement * _moveSpeed * Time.deltaTime);
+
         // STEP 2
         // After Step 1 is working, add more code to make it possible to flip
         //      the player's control scheme.
@@ -43,7 +66,7 @@ public class CatW5 : MonoBehaviour
         //
         // MULTIPLY one of your vectors with a certain value to do this. >:)
 
-        Vector3 translation = Vector3.zero;
+        
         
 
 
@@ -52,7 +75,7 @@ public class CatW5 : MonoBehaviour
         float rotation = Input.GetAxis("Horizontal") * _turnSpeed * Time.deltaTime;
         transform.Rotate(0, rotation, 0);
 
-        if (translation.magnitude != 0.0f || rotation != 0.0f)
+        if (movement.magnitude != 0.0f || rotation != 0.0f) 
         {
             _animator.SetBool(_isWalkingName, true);
         }
