@@ -27,6 +27,9 @@ Typically, only the key input part changes due to the player's input changes, it
 Q: What is the GetComponent function? What does it do?
 A: The simplest case is where a script on a GameObject needs to access another Component attached to the same GameObject (other scripts attached to a GameObject are also Components themselves). To do this, the first step is to get a reference to the Component instance you want to work with. This is done with the GetComponent method.
 
+### W6
+[Google doc link](https://docs.google.com/document/d/1JjeQbCCUjY07LrZi49c0iomh2LtX_U5325lBy6n0Y44/edit?usp=sharing)
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
