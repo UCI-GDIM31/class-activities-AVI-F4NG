@@ -31,7 +31,7 @@ A: The simplest case is where a script on a GameObject needs to access another C
 [Google doc link](https://docs.google.com/document/d/1JjeQbCCUjY07LrZi49c0iomh2LtX_U5325lBy6n0Y44/edit?usp=sharing)
 
 ### W7
-1. [Google doc link](https://docs.google.com/document/d/10R14qZZetU1eLqxvVqzBbsszbVETJhnGCUluOARTfZg/edit?usp=sharing)
+1. [Google doc link](https://docs.google.com/document/d/10R14qZZetU1eLqxvVqzBbsszbVETJhnGCUluOARTfZg/edit?usp=sharing) role: environment
 2. movement * Vector3.forward (which attempts to multiply a Vector3 by another Vector3) is invalid. Vector and vector multiplication like this is not supported.
 
 ## Open-Source Assets
