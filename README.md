@@ -32,7 +32,7 @@ A: The simplest case is where a script on a GameObject needs to access another C
 
 ### W7
 1. [Google doc link](https://docs.google.com/document/d/10R14qZZetU1eLqxvVqzBbsszbVETJhnGCUluOARTfZg/edit?usp=sharing)
-2. It attempted to add a float onto transform.position, which is supposed to be a Vector3.
+2. movement * Vector3.forward (which attempts to multiply a Vector3 by another Vector3) is invalid. Vector and vector multiplication like this is not supported.
 
 ## Open-Source Assets
 ### W1
