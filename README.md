@@ -30,6 +30,10 @@ A: The simplest case is where a script on a GameObject needs to access another C
 ### W6
 [Google doc link](https://docs.google.com/document/d/1JjeQbCCUjY07LrZi49c0iomh2LtX_U5325lBy6n0Y44/edit?usp=sharing)
 
+### W7
+1. [Google doc link](https://docs.google.com/document/d/10R14qZZetU1eLqxvVqzBbsszbVETJhnGCUluOARTfZg/edit?usp=sharing)
+2. It attempted to add a float onto transform.position, which is supposed to be a Vector3.
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
